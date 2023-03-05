@@ -1,96 +1,98 @@
 .hidden {
-  display: none;
+    display: none;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
 }
 
 img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  z-index: -1;
-  opacity: 80%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 80%;
 }
 
 #clock {
-  color: white;
-  font-size: 100px;
-  margin-bottom: 20px;
+    color: white;
+    font-size: 100px;
+    margin-bottom: 20px;
 }
 
 #greeting {
-  font-size: 50px;
-  font-style: initial;
+    font-size: 50px;
+    font-style: initial;
 }
 
 #todo-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
 }
 
 #todo-list li {
-  list-style-type: none;
-  position: relative;
-  border-radius: 30px;
-  font-size: 20px;
-  font-weight: 600;
+    list-style-type: none;
+    position: relative;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
 }
 #todo-list li button {
-  margin-left: 20px;
-  border: 0px;
+    margin-left: 20px;
+    border: 0px;
+    border-radius: 50%;
+    height: 30px;
 }
 
 input {
-  opacity: 50%;
-  border: 0;
-  border-radius: 50px;
-  width: 300px;
-  height: 30px;
+    opacity: 50%;
+    border-radius: ;
+    width: 300px;
+    height: 30px;
 }
-inpur::placeholder {
-  font: italic;
-  font-weight: bold;
-  opacity: 100%;
+input::placeholder {
+    font: italic;
+    font-weight: bold;
+    opacity: 100%;
 }
 
 #quote {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    bottom: 20px;
 }
 #quote span:first-child {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 #weather {
-  margin-top: 40px;
-  color: whitesmoke;
-  font-style: italic;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    margin-top: 40px;
+    color: whitesmoke;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #weather span:first-child {
-  font-size: 25px;
+    font-size: 25px;
 }
 
 #weather span:last-child {
-  margin-top: 10px;
-  font-size: 20px;
+    margin-top: 10px;
+    font-size: 20px;
 }
