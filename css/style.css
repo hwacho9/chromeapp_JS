@@ -55,13 +55,13 @@ img {
     height: 30px;
 }
 
-input {
+.todo-input {
     opacity: 50%;
-    border-radius: ;
+    border: 0px;
     width: 300px;
     height: 30px;
 }
-input::placeholder {
+.todo-input::placeholder {
     font: italic;
     font-weight: bold;
     opacity: 100%;
